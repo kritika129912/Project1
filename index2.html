@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript"></script>
+
+        <title>CareerBuilder</title>
+        <link rel="stylesheet" href="asset2/stylesheet2/main2.css">
+       
+    </head>
+    <body>
+        
+        <header class="primary-header container group">
+            
+        <h1 class="logo">
+ <img src="https://hiring-assets.careerbuilder.com/assets/logo--cb--2020.svg" width="200" height="60">
+        </h1>
+        
+<ul>
+        <li> <nav class="nav primary-nav"></li>
+        <li> <a href="jobs.html">Find Jobs</a></li>
+        <li><a href="profile.html">Create Your Profile</a></li>
+        <li> <a href="recom.html">Recommendations</a></li>
+        <li> <a href="resourse.html">Resourses</a></li>
+        <li style="float:right"><a class="active" href="#about">Employers</a></li>
+        <li style="float:right"><a class="active" href="#about">Sign Up</a></li>
+        </nav>
+</ul>
+</header>
+
+<section class="search">
+<br>
+<h2>Jobs and vacancies</h2>
+<div class="topnav">
+<input  type="text" size="30" placeholder="Job Title, Skills or Company"><!--
+--><input type="text" size="30" placeholder="City, State or Zip"><!--
+--><a class="btn btn-alt" href="search.html" >Find Jobs</a>
+</div>
+</section>
+
+<!--Home-->
+
+<section class="row">
+    <div class="grid">
+     
+
+<form class="col-1-3 borderof" >
+
+    <!--collapsible-->
+  
+    <button type="button" class="collapsible">Date Posted</button>
+<div class="content">
+         
+ 
+  <br>
+    <input type="radio" value="24">
+    <label > 24 hours</label><br>
+    <input type="radio" value="5">
+    <label > 5 days</label><br>
+    <input type="radio" value="7" >
+    <label> 7 days</label><br>
+    <input type="radio" value="20">
+    <label> 20 days</label><br><br>
+ </div>
+
+ <button type="button" class="collapsible">Type</button>
+ <div class="content">
+          
+  <input type="checkbox" >
+  <label > All</label><br>
+  <input type="checkbox" >
+  <label > Full time employee</label><br>
+  <input type="checkbox">
+  <label> Part time employee</label><br><br>
+</div>
+
+<button type="button" class="collapsible">Categories</button>
+<div class="content">
+         
+  <input type="radio" value="24">
+  <label > Information Technology</label><br>
+  <input type="radio" value="5">
+  <label >Engineering</label><br>
+  <input type="radio" value="7" >
+  <label> Business</label><br><br>
+</div>
+
+<button type="button" class="collapsible">States</button>
+<div class="content">
+         
+  <input type="radio" value="Delhi">
+  <label > Delhi</label><br>
+  <input type="radio" value="Kerala">
+  <label >Kerala</label><br>
+  <input type="radio" value="Karnataka" >
+  <label>Karnataka</label><br><br>
+</div><br>
+
+  <input type="submit" class="btn-f1" value="Search">
+
+</form><!--
+
+--><section class="col-2-3">
+    <br>
+<a href="career.html" class="border" style="padding:10px; color: rgb(84, 172, 207) ;">See My Career Path</a><br>
+
+
+  <ul>
+<nav class="nav1 primary-nav">
+ 
+<li><a >Sort By:</a></li>
+<li><a href=date.html style="color: rgb(84, 172, 207) ;" >Date</a></li>
+<li><a href=rel.html  style="color: rgb(84, 172, 207) ;">Relevance</a></li>
+
+</nav>
+</ul>
+
+<h3 style="color: rgb(84, 172, 207) ;">Software Developer</h3>
+<h5>Posted 2 days ago..</h5>
+<p style="padding: 40px 0px 40px;">Software developer at Hyderabad location.This is a software product startup that is founded to build powerful data structures using Java and other core technologies to generate fast/real-time information and analytics out of unmanaged/unexpected data explosion that has already started globally.
+</p>
+
+
+<h3 style="color: rgb(84, 172, 207) ;">Mobile App Development</h3>
+<h5>Posted 3 days ago..</h5>
+<p style="padding: 40px 0px 40px;"> iBrand Solutions is an IT services company providing high-quality services in web development, & internet marketing/SEO services founded in trust, integrity, and solid business ethics, an innovative force in internet marketing and constantly striving to raise the bar on the standards for internet marketing services.
+</p>
+
+
+<h3 style="color: rgb(84, 172, 207) ;">Python Algorihtm and Application Development</h3>
+<h5>Posted 3 days ago..</h5>
+<p style="padding: 40px 0px 40px;" >We are a futuristic product and solutions company aimed at helping customers with speedier product releases while ensuring quality assurance through effective evaluation of their software functionality. Our solutions also include building predictive models through artificial intelligence and machine learning.
+
+</p>
+
+</section>
+
+    </div>
+</section>
+
+<!--Popup form-->
+
+<p><button id="modal_open" class="btn-f1">FEEDBACK</button></p>
+
+<div id="modal_wrapper">
+<div id="modal_window">
+
+<div style="text-align: right;"><a id="modal_close" href="#">close <b>X</b></a></div>
+<h1 class="logo2">
+    <img src="https://hiring-assets.careerbuilder.com/assets/logo--cb--2020.svg" width="300" height="100">
+           </h1>
+           <br>
+<p style="color: rgb(102, 97, 97);" >What type of feedback would you like to leave for us?</p><!--
+
+--><select class="select1">
+                       
+    <option value="1">English</option>
+    <option value="2">Espanol</option>
+    <option value="3">Deutch</option>
+    <option value="1">Francais</option>
+    <option value="2">Nederlands</option>
+    <option value="3">Swenska</option>
+
+
+</select>
+<form id="modal_feedback" method="POST" action="#" accept-charset="UTF-8">
+<br>
+<input type="button" class="btn-feedback" style="color: rgb(102, 97, 97);" autofocus required size="48"  value="Suggestions or general feedback."></label></p>
+<br>
+<input type="button" class="btn-feedback" size="48" style="color: rgb(102, 97, 97);"  value="Bug or site issue."></label></p>
+<br>
+<input type="button" class="btn-feedback" size="48" style="color: rgb(102, 97, 97);" value="Question"></label></p>
+<br>
+
+<p><input type="submit" name="feedbackForm" style="background-color: rgb(58, 26, 110);" value=">>"></p>
+</form>
+
+</div> <!-- #modal_window -->
+</div> <!-- #modal_wrapper -->
+
+
+        <footer class="nav primary-footer container">
+           
+         </footer>
+          <script src="C:\javatutorial.txt\ASSESSMENT\file.js"></script>
+     </body>
+ </html>
+ 
